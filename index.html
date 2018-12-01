@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Totally Trivial Trivia!</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1><strong>Fast and Furious Totally Trivial Trivia!</strong></h1>
+            <br>
+        </header>
+        <section>
+            <div id="timeRemaining"></div><br>
+            <div id="results"></div>
+            <form name="quizForm" onsubmit="return submitAnswers()">
+                <h4>1. What car does Dom have waiting in his garage in "The Fast and the Furious"?</h4>
+                <input type="radio" name="q1" value="a" id="q1a">a. 1971 Plymouth Barracuda
+                <input type="radio" name="q1" value="b" id="q1b">b. 1970 Dodge Charger
+                <input type="radio" name="q1" value="c" id="q1c">c. 1971 Dodge Demon
+                <input type="radio" name="q1" value="d" id="q1d">d. 1993 Mazda RX7
+                <br><br>
+                <h4>2. Where do Dom, Mia and Brian head at the begining of "Fast Five"?</h4>
+                <input type="radio" name="q2" value="a" id="q2a">a. Rio De Janeiro
+                <input type="radio" name="q2" value="b" id="q2b">b. Miami
+                <input type="radio" name="q2" value="c" id="q2c">c. California
+                <input type="radio" name="q2" value="d" id="q2d">d. London
+                <br><br>
+                <h4>3. In which movie did they introduce the character HAN?</h4>
+                <input type="radio" name="q3" value="a" id="q3a">a. Fast Five
+                <input type="radio" name="q3" value="b" id="q3b">b. Fast and Furious 3
+                <input type="radio" name="q3" value="c" id="q3c">c. Two Fast, Two Furious
+                <input type="radio" name="q3" value="d" id="q3d">d. Tokyo Drift
+                <br><br>
+                <h4>4. Paul Walker is the best actor in Fast and Furious Trilogy</h4>
+                <input type="radio" name="q4" value="a" id="q4a">a. True
+                <input type="radio" name="q4" value="b" id="q4b">b. False
+                <br><br>
+                <h4>5. Who said "I'll have the Tuna no Crust"</h4>
+                <input type="radio" name="q5" value="a" id="q5a">a. Roman Pearce
+                <input type="radio" name="q5" value="b" id="q5b">b. Johnny Tran
+                <input type="radio" name="q5" value="c" id="q5c">c. Dominic Toretto
+                <input type="radio" name="q5" value="d" id="q5d">d. Brian O'Conner
+                <br><br>
+                <input type="submit" value="Submit Answers">
+            
+            </form>
+        </section>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
